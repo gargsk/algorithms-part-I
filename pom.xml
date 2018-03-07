@@ -4,13 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sharad</groupId>
+    <groupId>algs4.I</groupId>
     <artifactId>algorithms-part-I</artifactId>
     <version>1.0-SNAPSHOT</version>
     <url>https://github.com/gargsk/algorithms-part-I</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>bintray-algs4-maven</id>
+            <name>bintray</name>
+            <url>https://dl.bintray.com/algs4/maven</url>
+        </repository>
+    </repositories>
     <dependencyManagement>
         <dependencies>
             <dependency>
